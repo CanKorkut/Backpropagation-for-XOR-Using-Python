@@ -24,7 +24,7 @@ class output_neuron:
        f_net=sigmoid(f1)
        return f_net
 
-def predict():
+def train():
    # create input and output neuron
    ineuron0 =  input_neuron()
    ineuron1 =  input_neuron()
@@ -91,7 +91,7 @@ def predict():
       
 
 if __name__=="__main__":
-	predict()
+	train()
     
     
     
