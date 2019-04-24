@@ -18,5 +18,7 @@ W_new = W_old + ß
 
 ß = n * (input) * (error)
 
-error = label(Z) - output 
+global_error = label(Z) - output 
+
+hidden_error=sigmoid_derivative(input) * global_error * W_hidden * n
 
